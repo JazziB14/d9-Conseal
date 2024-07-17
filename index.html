@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex">
+    <!-- screen is split into two sides -->
+    <!-- div1 left side: form style  -->
+    <div class="h-screen w-3/6 bg-gray-300 grid place-content-center">
+        <!-- there is a logo and form -->
+        <div>
+            <a href="/" class="logo">
+              <img class="w-60 mx-auto" ng-src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg">
+            </a>
+          </div>
+          <div>
+            <input class="mb-2 w-96 rounded-t-lg p-2 mt-2 border-2 border-slate-200" type="text" placeholder="Email"><br>
+            <input class="mb-2 w-96 rounded-b-lg p-2 mt-2 border-2 border-slate-200" type="password" placeholder="Password"><br>
+            <div class="flex justify-between">
+            <div class="pl-3 mt-3">
+                <input type="checkbox"  class="checked:fill-sky-500" name="">
+            </label>
+               <label class="text-zinc-400 text-sm" for="">Remember Me <span class="text-xs text-zinc-400 pl-2">( Having Trouble? )</span>
+               </label>
+            </div>
+            <div class="bg-sky-500 rounded-br-lg w-20 text-center p-2 text-zinc-600">
+                <input class="" type="submit" value="Login">
+            </div>
+            </div>
+          </div>
+        </form>
+       </div>
+    </div>
+        <!--div2 right side: image -->
+    <div class="h-screen w-3/6 bg-purple-400">
+        <img class=" object cover w-full h-full" src="https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg20.jpg" alt="">
+    </div>
+</body>
+</html>
